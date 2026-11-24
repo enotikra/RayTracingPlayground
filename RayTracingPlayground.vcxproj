@@ -139,10 +139,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Image.cpp" />
     <ClCompile Include="RayTracingPlayground.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Color.h" />
+    <ClInclude Include="include\Image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
